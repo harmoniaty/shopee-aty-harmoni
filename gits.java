@@ -1,7 +1,6 @@
 package gist;
 
          import java.net.MalformedURLException;
-
          import cucumber.selenium.selenium.seleniumFunction;
          import cucumber.api.PendingException;
          import cucumber.api.java.en.Given;
@@ -23,9 +22,9 @@ package gist;
       case "add"
       sf.displayed_add_updated();
 			}
-			public void user_edit_an_existing_gist(){
+public void user_edit_an_existing_gist(){
 			case "edit":
-      sf.clickDetailGist;
+    		       sf.clickDetailGist;
 			sf.EditExisting ;
 			sf.displayed_add_updated;
       break;
@@ -37,3 +36,4 @@ package gist;
 			public void displayed_list_all_gist(){
 			sf.shopeeGIST();
 			}
+	}
